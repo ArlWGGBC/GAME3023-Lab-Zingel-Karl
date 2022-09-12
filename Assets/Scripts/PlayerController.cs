@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
         Vector2 Transform = transform.position;
 
 
-        transform.position = new Vector2(transform.position.x + x, transform.position.y + y);
+        transform.position = new Vector2(transform.position.x + x * Time.deltaTime, transform.position.y + y * Time.deltaTime);
 
     }
 }
