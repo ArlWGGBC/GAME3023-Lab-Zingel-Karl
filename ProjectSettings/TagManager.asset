@@ -3,15 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NPC
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Portal
   - Water
   - UI
-  - 
+  - EditorOnly
   - 
   - 
   - 
@@ -38,6 +39,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2918630515
+    locked: 0
+  - name: Skybox
+    uniqueID: 3337457561
+    locked: 0
+  - name: Sky
+    uniqueID: 1128789495
+    locked: 0
+  - name: Ground
+    uniqueID: 2596650027
+    locked: 0
+  - name: OnGround
+    uniqueID: 1102376831
+    locked: 0
+  - name: Foreground
+    uniqueID: 2612426333
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
